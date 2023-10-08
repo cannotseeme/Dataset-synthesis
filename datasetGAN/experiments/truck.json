@@ -1,0 +1,18 @@
+{
+  "exp_dir": "model_dir/truck",
+  "batch_size": 64,
+  "category": "car",
+  "debug": false,
+  "dim": [512, 512, 3264],
+  "deeplab_res": 512,
+  "number_class": 2,
+  "testing_data_number_class": 2,
+  "max_training": 2,
+  "stylegan_ver": "1",
+  "annotation_data_from_w": false,
+  "annotation_mask_path": "./dataset_release/annotation/training_data/truck",
+  "annotation_image_latent_path": "./dataset_release/training_latent/truck/latent_stylegan2-ada.npy",
+  "stylegan_checkpoint": "./checkpoint/stylegan.pth",
+  "model_num": 1,
+  "upsample_mode":"bilinear"
+}
