@@ -46,7 +46,7 @@ python train_interpreter.py \
 
 *Example of annotations*
 
-![img](datasetGAN/figs/annotations.png)
+![img](datasetGAN/figs/annotations.jpg)
 
 ## Citations
 
